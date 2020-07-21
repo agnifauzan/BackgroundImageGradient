@@ -1,0 +1,21 @@
+.parent {
+  background-color: yellow;
+  height: 100%;
+  /* width: 400px; */
+}
+
+.backgroundImage img {
+  position: relative;
+  height: 400px;
+  width: 800px;
+  z-index: 0;
+}
+.gradient {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(rgba(121, 0, 168, 0.3), rgba(0, 151, 0, 0.5));
+  /* opacity: 0.3; */
+  z-index: 1;
+  top: 10px;
+}
